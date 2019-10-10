@@ -6,7 +6,7 @@ spec:
   type: clusterIP
   ports:
   - targetPort: 80
-    Port: 80
+    port: 80
   selector:
     name: redis
     type: backend
