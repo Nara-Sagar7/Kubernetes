@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: service-backend
 spec:
-  type: clusterIp
+  type: clusterIP
   ports:
   - targetPort: 80
     Port: 80
