@@ -2,13 +2,12 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: redis
+  namespace: dev
+  namespace: prod
+  namespace: test
   labels: 
     name: redis
     type: backend
-    namespace: dev
-    namespace: prod
-    namespace: test
-
 spec: 
   containers:
   -  name: redis-container
