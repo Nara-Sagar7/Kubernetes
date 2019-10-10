@@ -5,6 +5,10 @@ metadata:
   labels: 
     name: redis
     type: backend
+    namespace: dev
+    namespace: prod
+    namespace: test
+
 spec: 
   containers:
   -  name: redis-container
