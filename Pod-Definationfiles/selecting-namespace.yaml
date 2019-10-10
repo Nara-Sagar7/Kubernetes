@@ -2,7 +2,9 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: redis
-  labels: backend
+  labels: 
+    name: redis
+    type: backend
 spec: 
   containers:
   -  name: redis-container
